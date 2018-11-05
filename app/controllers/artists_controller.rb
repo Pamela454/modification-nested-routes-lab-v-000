@@ -23,7 +23,6 @@ class ArtistsController < ApplicationController
 
   def edit
     @artist = Artist.find(params[:id])
-    @song = Song.find(params[:id])
   end
 
   def update
